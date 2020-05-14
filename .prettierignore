@@ -1,0 +1,11 @@
+.cache
+.vscode
+.idea
+coverage
+dist
+node_modules
+packages
+package.json
+package-lock.json
+CHANGELOG.md
+README.md

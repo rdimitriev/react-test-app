@@ -29,3 +29,20 @@ The following are taken into consideration
 We are looking for organized scalable frontend code, with attention to details and corner case handling. Show us your eye for detail and consideration for colleagues that will maintain and modify the code.
 
 Please let us know if you have any questions.
+
+## Install dependencies
+
+Run `npm install` from project folder
+
+## Build project
+
+Run `npm run build` from project folder
+## Start Server
+
+Run `npm run start` from project folder. Application starts on port 1234
+
+## Run Jest Unit tests
+
+Run `npm run test` from project folder
+
+Additionally you can run `npm run format` and `npm run lint` for code checkers and linters.

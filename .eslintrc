@@ -1,0 +1,44 @@
+{
+  "env": {
+    "es6": true,
+    "browser": true,
+    "jest": true
+  },
+  "parser": "babel-eslint",
+  "plugins": ["prettier"],
+  "extends": ["standard", "standard-react", "prettier", "prettier/standard", "prettier/react"],
+  "rules": {
+    "indent": "off",
+    "jsx-quotes": "off",
+    "max-len": "off",
+    "quote-props": "off",
+    "react/jsx-indent": "off",
+    "react/jsx-indent-props": "off",
+    "react/jsx-handler-names": "off",
+    "prettier/prettier": "error",
+    "no-eval": "error",
+    "import/first": "error",
+    "no-alert": "error",
+    "no-console": "error",
+    "linebreak-style": "off",
+    "lines-between-class-members": ["error", "always"],
+    "padding-line-between-statements": ["error", { "blankLine": "always", "prev": "*", "next": "return" }],
+    "react/no-unused-prop-types": "error",
+    "import/no-extraneous-dependencies": "error",
+    "import/order": [
+      "error",
+      {
+        "groups": ["builtin", "external", "internal", "parent", "sibling", "index"]
+      }
+    ]
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "legacyDecorators": true,
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  }
+}
+
